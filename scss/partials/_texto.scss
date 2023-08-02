@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: $colorTexto;
+}
+
+h1{
+    color:$colorTexto;
+    font-size: 2rem;
+}
+h2{
+    color:$colorTexto;
+    font-size: 0.8rem;
+}
+p{
+    color:$colorTexto;
+    font-size: 1rem;
+}
+
+.titulo-bienvenida{
+    font-size: 5rem;
+    padding-top: 5rem;
+    font-family: $fuenteTituloPrincipal; //le saqué el monospace y se lo puse en la variable.
+}
+.texto-bienvenida{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+}

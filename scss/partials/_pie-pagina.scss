@@ -1,0 +1,35 @@
+footer{
+    background-color:$colorPie;
+}
+
+.pie-pagina{
+    background-color:$colorPie; 
+    padding: 1rem;    
+}
+
+.menu-pie {
+    color: $colorTexto;
+    font-size: 1rem;
+    background-color:$colorPie;
+}
+
+.menu-pie-item{
+    background-color:$colorPie;
+}
+
+.pie-icono {
+    background-color:$colorPie;
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.menu-pie-icono{
+    background-color:$colorPie;
+    padding-bottom: 2rem;
+    padding-left: 1rem; 
+    padding-right: 1rem;
+    
+}
