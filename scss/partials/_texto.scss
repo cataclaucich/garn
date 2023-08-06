@@ -17,9 +17,9 @@ p{
 }
 
 .titulo-bienvenida{
-    font-size: 5rem;
+    font-size: 3rem;
     padding-top: 5rem;
-    font-family: $fuenteTituloPrincipal; //le saqué el monospace y se lo puse en la variable.
+    font-family: $fuenteTituloPrincipal, monospace; 
 }
 .texto-bienvenida{
     font-size: 1.8rem;

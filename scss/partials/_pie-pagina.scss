@@ -1,20 +1,24 @@
 footer{
     background-color:$colorPie;
+    border-top-style:ridge;
+    border-color: $colorBorderHeader;
 }
 
 .pie-pagina{
     background-color:$colorPie; 
-    padding: 1rem;    
-}
+    padding: 1rem; 
+    
+    .menu-pie {
+        
+        background-color:$colorPie;
+        padding-left: 1rem;
+        padding-right: 1rem;
 
-.menu-pie {
-    color: $colorTexto;
-    font-size: 1rem;
-    background-color:$colorPie;
-}
-
-.menu-pie-item{
-    background-color:$colorPie;
+        .menu-pie-item{
+            font-size: 1.1rem;
+            color: $colorTexto;
+        }
+    }
 }
 
 .pie-icono {
@@ -23,13 +27,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center; 
-    
+
+    .menu-pie-icono{
+        background-color:$colorPie;
+        padding-bottom: 2rem;
+        padding-left: 1rem; 
+        padding-right: 1rem;   
+    }    
 }
 
-.menu-pie-icono{
-    background-color:$colorPie;
-    padding-bottom: 2rem;
-    padding-left: 1rem; 
-    padding-right: 1rem;
-    
-}

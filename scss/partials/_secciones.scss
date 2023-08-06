@@ -1,0 +1,33 @@
+@import "./variables";
+
+.seccion-central{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.tarjeta{
+    padding-bottom: 2rem;
+}
+
+@each $tarjetas,$colorFondoTarjetas in $colorFondoTarjetas{
+
+    .tarjeta-#{$tarjetas}{
+        background-color: $colorFondoTarjetas;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+}
+
+.tarjeta-patron{
+    padding-top: 2rem;
+
+    .tarjeta-patron-item{
+        background-color: $colorBorderHeader;
+    }
+    .tarjeta-patron-texto{
+        background-color: $colorBorderHeader;
+    }
+}
+
+.boton-seccion{
+    :hover{transform: scale3d(1.1,1.1,1.1);}
+}

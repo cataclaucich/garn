@@ -3,54 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garntraum - Crochet</title>
+
+    <title>Crochet - Garntraum</title>
+    <meta name="description" content="Patrones de tejido a crochet.">
+    <meta name="keywords" content="Patrones, Tejido, Crochet, Agujas, Hilados, Lanas, Hilos.">
+
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col encabezado">
-                    <a href="../index.html"><img src="../img/logo.png" alt="logo" width="200"></a>
-                </div>
-                <div class="col encabezado">
-                    <ul class="nav justify-content-end encabezado">
-                        <li class="nav-item menu-encabezado">
-                            <a class="nav-link active" aria-current="page" href="../pages/tejido.html">¡Agujas a la obra!</a></li>
-                        </li>
-                        <li class="nav-item menu-encabezado">
-                            <a class="nav-link" href="../pages/tips.html">Tips tejeriles</a></li>
-                        </li>
-                        <li class="nav-item menu-encabezado">
-                            <a class="nav-link" href="../pages/sobre.html">Sobre Garntraum</a></li>
-                        </li>
-                    </ul>   
+        <nav class="navbar navbar-expand-lg menu-hamburguesa">
+            <div class="container menu-hamburguesa">
+                <a href="../index.html"><img src="../img/logo.png" alt="logo" width="180"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icono-menu-hamburguesa"></span>
+                </button>
+                <div class="offcanvas offcanvas-end titulo-menu-hamburguesa" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Garntraum</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body item-menu-hamburguesa">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 item-menu-hamburguesa">
+                            <li class="nav-item item-menu-hamburguesa">
+                                <a class="nav-link active" href="../pages/tejido.html">¡Agujas a la obra!</a>
+                            </li>
+                            <li class="nav-item item-menu-hamburguesa">
+                                <a class="nav-link active " href="../pages/tips.html">Tips tejeriles</a>
+                            </li>
+                            <li class="nav-item item-menu-hamburguesa">
+                                <a class="nav-link active " href="../pages/sobre.html">Sobre Garntraum</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header> 
 
     <main>
         <section>
             
-            <div class="row">
-                <div class="col-3">
-                  <div class="card text-center">
-                    <img src="../img/tejiendo.jpg" class="card-img-top" alt="Crochet">
-                    <div class="card-body">
-                      <a href="./crochet.html" class="btn btn-secondary">Crochet</a>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    </div class="col-md-4">
+                        <h1 class="titulo-bienvenida">Patrones de tejido a crochet</h1>
                     </div>
-                  </div>
-                </div>
+                </div>               
             </div>
 
             <div class="container text-center seccion-central">
                 <div class="row">
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron10.png">
+                            <img src="../img/patron10.png" alt="Patrón siesta">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Siesta</h5>
                                 <p class="card-text">Medias rayadas</p>
@@ -59,7 +67,7 @@
                     </div>
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron11.png">
+                            <img src="../img/patron11.png" alt="Patrón Alabama">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Alabama</h5>
                                 <p class="card-text">Cardigan</p>
@@ -68,7 +76,7 @@
                     </div>
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron12.png">
+                            <img src="../img/patron12.png" alt="Patrón Cena">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Cena</h5>
                                 <p class="card-text">Posavaso</p>
@@ -77,7 +85,7 @@
                     </div>
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron13.png">
+                            <img src="../img/patron13.png" alt="Patrón Lago">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Lago</h5>
                                 <p class="card-text">Sweater rayado</p>
@@ -86,7 +94,7 @@
                     </div>
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron14.png">
+                            <img src="../img/patron14.png" alt="Patrón Aconcagua">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Aconcagua</h5>
                                 <p class="card-text">Sweater con textura</p>
@@ -95,7 +103,7 @@
                     </div>
                     <div class="col-3">
                         <div class="card">
-                            <img src="../img/patron15.png">
+                            <img src="../img/patron15.png" alt="Patrón Madrid">
                             <div class="card-body">
                                 <h5 class="card-title">Patrón Madrid</h5>
                                 <p class="card-text">Gorro</p>
@@ -110,22 +118,22 @@
     <footer>
         <ul class="nav justify-content-center pie-pagina">
             <li class="nav-item menu-pie">
-              <a class="nav-link active menu-pie-item" aria-current="page" href="../pages/tejido.html">¡Agujas a la obra!</a></li>
+                <a class="nav-link active menu-pie-item" href="../pages/tejido.html">¡Agujas a la obra!</a>
             </li>
             <li class="nav-item menu-pie">
-              <a class="nav-link menu-pie-item" href="../pages/tips.html">Tips tejeriles</a></li>
+                <a class="nav-link active menu-pie-item" href="../pages/tips.html">Tips tejeriles</a>
             </li>
             <li class="nav-item menu-pie">
-              <a class="nav-link menu-pie-item" href="../pages/sobre.html">Sobre Garntraum</a></li>
+                <a class="nav-link active menu-pie-item" href="../pages/sobre.html">Sobre Garntraum</a>
             </li>
         </ul>
         <div class="row pie-pagina">
             <ul class="pie-icono">
                 <li class="menu-pie-icono">
-                    <img src="../img/instagram.png" alt="instagram" width="50"></a> 
+                    <img src="./img/instagram.png" alt="instagram" width="50"></a> 
                 </li>
                 <li class="menu-pie-icono">
-                    <img src="../img/youtube.png" alt="youtube" width="50"></a>           
+                    <img src="./img/youtube.png" alt="youtube" width="50"></a>           
                 </li>
             </ul>
         </div>

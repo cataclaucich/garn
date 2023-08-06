@@ -27,9 +27,9 @@ p {
 }
 
 .titulo-bienvenida {
-  font-size: 5rem;
+  font-size: 3rem;
   padding-top: 5rem;
-  font-family: "Segoe Print", monospace;
+  font-family: "Rubik", monospace;
 }
 
 .texto-bienvenida {
@@ -38,57 +38,118 @@ p {
 }
 
 header {
-  background-color: #b68788;
+  background-color: #ecd9b1;
+  border-bottom-style: ridge;
+  border-color: #d7c6a1;
 }
 
-.encabezado {
-  background-color: antiquewhite;
-  list-style-type: none;
-}
-
-.menu-encabezado {
-  color: rgb(38, 38, 38);
-  padding: 2rem;
-  background-color: antiquewhite;
-}
-
-footer {
-  background-color: #b68788;
-}
-
-.pie-pagina {
-  background-color: #b68788;
-  padding: 1rem;
-}
-
-.menu-pie {
-  color: rgb(38, 38, 38);
-  font-size: 1rem;
-  background-color: #b68788;
-}
-
-.menu-pie-item {
-  background-color: #b68788;
-}
-
-.pie-icono {
-  background-color: #b68788;
-  list-style-type: none;
+.encabezado_logo {
+  background-color: #ecd9b1;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
-.menu-pie-icono {
-  background-color: #b68788;
-  padding-bottom: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.encabezado {
+  background-color: #ecd9b1;
+  list-style-type: none;
+}
+.encabezado .menu-encabezado {
+  color: rgb(38, 38, 38);
+  font-size: 1.2rem;
+  padding: 2rem;
+  background-color: #ecd9b1;
+}
+
+.menu-hamburguesa {
+  background-color: #ecd9b1;
+  min-height: 4rem;
+}
+.menu-hamburguesa .item-menu-hamburguesa {
+  background-color: #ecd9b1;
+  padding-right: 3rem;
+}
+.menu-hamburguesa .icono-menu-hamburguesa {
+  padding: 1rem;
+  background-color: #ecd9b1;
+}
+.menu-hamburguesa .titulo-menu-hamburguesa {
+  color: rgb(38, 38, 38);
+  background-color: #ecd9b1;
 }
 
 .seccion-central {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.tarjeta {
+  padding-bottom: 2rem;
+}
+
+.tarjeta-Crochet {
+  background-color: #d6ce93;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.tarjeta-Agujas {
+  background-color: #a3a380;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.tarjeta-Tips {
+  background-color: #d8a48f;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.tarjeta-patron {
+  padding-top: 2rem;
+}
+.tarjeta-patron .tarjeta-patron-item {
+  background-color: #d7c6a1;
+}
+.tarjeta-patron .tarjeta-patron-texto {
+  background-color: #d7c6a1;
+}
+
+.boton-seccion :hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+footer {
+  background-color: #ecd9b1;
+  border-top-style: ridge;
+  border-color: #d7c6a1;
+}
+
+.pie-pagina {
+  background-color: #ecd9b1;
+  padding: 1rem;
+}
+.pie-pagina .menu-pie {
+  background-color: #ecd9b1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pie-pagina .menu-pie .menu-pie-item {
+  font-size: 1.1rem;
+  color: rgb(38, 38, 38);
+}
+
+.pie-icono {
+  background-color: #ecd9b1;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-icono .menu-pie-icono {
+  background-color: #ecd9b1;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

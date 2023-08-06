@@ -1,14 +1,47 @@
 header{
     background-color: $colorHeader;
+    border-bottom-style:ridge;
+    border-color: $colorBorderHeader;
+}
+
+.encabezado_logo{
+    background-color:$colorHeader;
+    display: flex;
+    align-items: center;    
+    
 }
 
 .encabezado{
-    background-color:$colorFondo;
-    list-style-type: none;     
+    background-color:$colorHeader;
+    list-style-type: none;    
+
+    .menu-encabezado {
+        color: $colorTexto;
+        font-size: 1.2rem;
+        padding: 2rem;
+        background-color:$colorHeader;     
+    }
 }
 
-.menu-encabezado {
-    color: $colorTexto;
-    padding: 2rem;
-    background-color:$colorFondo;     
+
+.menu-hamburguesa{
+    background-color: $colorHeader;
+    min-height: 4rem;
+
+    .item-menu-hamburguesa{
+        background-color: $colorHeader;
+        padding-right: 3rem;
+    }
+
+    .icono-menu-hamburguesa{
+        padding: 1rem;
+        background-color: $colorHeader;
+    }
+    .titulo-menu-hamburguesa{
+        color: $colorTexto;
+        background-color: $colorHeader;
+
+    }
 }
+
+
