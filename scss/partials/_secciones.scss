@@ -1,12 +1,14 @@
 @import "./variables";
 
+
 .seccion-central{
     padding-top: 5rem;
+}
+
+.seccion-patrones{
     padding-bottom: 5rem;
 }
-.tarjeta{
-    padding-bottom: 2rem;
-}
+
 
 @each $tarjetas,$colorFondoTarjetas in $colorFondoTarjetas{
 
@@ -20,14 +22,30 @@
 .tarjeta-patron{
     padding-top: 2rem;
 
-    .tarjeta-patron-item{
-        background-color: $colorBorderHeader;
-    }
-    .tarjeta-patron-texto{
-        background-color: $colorBorderHeader;
-    }
+    // .tarjeta-patron-item{
+    //     background-color: $colorBorderHeader;
+    // }
+    // .tarjeta-patron-texto{
+    //     background-color: $colorBorderHeader;
+    // }
 }
 
 .boton-seccion{
     :hover{transform: scale3d(1.1,1.1,1.1);}
+}
+
+.crochet{
+    background-color: map-get($map: $colorFondoTarjetas, $key: Crochet);
+
+    .crochet-texto{
+        background-color: map-get($map: $colorFondoTarjetas, $key: Crochet);
+    }
+}
+
+.agujas{
+    background-color: map-get($map: $colorFondoTarjetas, $key: Agujas);
+
+    .agujas-texto{
+        background-color: map-get($map: $colorFondoTarjetas, $key: Agujas);
+    }
 }

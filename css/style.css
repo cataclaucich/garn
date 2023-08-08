@@ -26,6 +26,10 @@ p {
   font-size: 1rem;
 }
 
+.margen-superior {
+  padding: 1rem;
+}
+
 .titulo-bienvenida {
   font-size: 3rem;
   padding-top: 5rem;
@@ -79,11 +83,10 @@ header {
 
 .seccion-central {
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
-.tarjeta {
-  padding-bottom: 2rem;
+.seccion-patrones {
+  padding-bottom: 5rem;
 }
 
 .tarjeta-Crochet {
@@ -107,15 +110,23 @@ header {
 .tarjeta-patron {
   padding-top: 2rem;
 }
-.tarjeta-patron .tarjeta-patron-item {
-  background-color: #d7c6a1;
-}
-.tarjeta-patron .tarjeta-patron-texto {
-  background-color: #d7c6a1;
-}
 
 .boton-seccion :hover {
   transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.crochet {
+  background-color: #d6ce93;
+}
+.crochet .crochet-texto {
+  background-color: #d6ce93;
+}
+
+.agujas {
+  background-color: #a3a380;
+}
+.agujas .agujas-texto {
+  background-color: #a3a380;
 }
 
 footer {
