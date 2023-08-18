@@ -42,43 +42,54 @@ p {
 }
 
 header {
-  background-color: #ecd9b1;
+  background-color: #c7ba9f;
   border-bottom-style: ridge;
   border-color: #d7c6a1;
 }
 
 .encabezado_logo {
-  background-color: #ecd9b1;
+  background-color: #c7ba9f;
   display: flex;
   align-items: center;
 }
 
 .encabezado {
-  background-color: #ecd9b1;
-  list-style-type: none;
-}
-.encabezado .menu-encabezado {
-  color: rgb(38, 38, 38);
-  font-size: 1.2rem;
-  padding: 2rem;
-  background-color: #ecd9b1;
+  background-image: url(/img/punto8.jpg);
+  background-color: #d7c6a1;
+  min-height: 24rem;
+  width: 100%;
 }
 
 .menu-hamburguesa {
-  background-color: #ecd9b1;
-  min-height: 4rem;
+  background-color: #c7ba9f;
+  min-height: 8rem;
+  border-radius: 4rem;
+  margin: 3rem;
+}
+.menu-hamburguesa .logo {
+  background-color: #c7ba9f;
+  padding-left: 2rem;
+}
+.menu-hamburguesa .logo-offcavas {
+  background-color: antiquewhite;
 }
 .menu-hamburguesa .item-menu-hamburguesa {
-  background-color: #ecd9b1;
+  background-color: #c7ba9f;
   padding-right: 3rem;
+  font-size: 1.2rem;
+}
+.menu-hamburguesa .item-menu-hamburguesa a:hover {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 0.5rem;
 }
 .menu-hamburguesa .icono-menu-hamburguesa {
   padding: 1rem;
-  background-color: #ecd9b1;
+  background-color: #c7ba9f;
 }
 .menu-hamburguesa .titulo-menu-hamburguesa {
   color: rgb(38, 38, 38);
-  background-color: #ecd9b1;
+  background-color: #c7ba9f;
 }
 
 .seccion-central {
@@ -89,26 +100,29 @@ header {
   padding-bottom: 5rem;
 }
 
-.tarjeta-Crochet {
+.tarjeta-Tips {
   background-color: #d6ce93;
   padding: 1rem;
   margin: 0.5rem;
+  border-radius: 2rem;
 }
 
-.tarjeta-Agujas {
+.tarjeta-Crochet {
   background-color: #a3a380;
   padding: 1rem;
   margin: 0.5rem;
+  border-radius: 2rem;
 }
 
-.tarjeta-Tips {
+.tarjeta-Agujas {
   background-color: #d8a48f;
   padding: 1rem;
   margin: 0.5rem;
+  border-radius: 2rem;
 }
 
 .tarjeta-patron {
-  padding-top: 2rem;
+  padding-top: 6rem;
 }
 
 .boton-seccion :hover {
@@ -116,17 +130,30 @@ header {
 }
 
 .crochet {
-  background-color: #d6ce93;
+  background-color: #a3a380;
 }
 .crochet .crochet-texto {
-  background-color: #d6ce93;
+  background-color: #a3a380;
 }
 
 .agujas {
-  background-color: #a3a380;
+  background-color: #d8a48f;
 }
 .agujas .agujas-texto {
-  background-color: #a3a380;
+  background-color: #d8a48f;
+}
+
+.tarjeta-seccion-tip {
+  background-color: #d7c6a1;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
+.hola {
+  background-color: #d7c6a1;
+}
+.hola :hover {
+  background-color: #d7c6a1;
 }
 
 footer {
@@ -147,6 +174,12 @@ footer {
 .pie-pagina .menu-pie .menu-pie-item {
   font-size: 1.1rem;
   color: rgb(38, 38, 38);
+  padding-top: 2rem;
+}
+.pie-pagina .menu-pie :hover {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 0.5rem;
 }
 
 .pie-icono {
@@ -161,6 +194,10 @@ footer {
   padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.pie-icono .menu-pie-icono .imagen-pie-icono {
+  background-color: #ecd9b1;
+  padding-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

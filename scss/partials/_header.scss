@@ -1,7 +1,9 @@
+
 header{
     background-color: $colorHeader;
     border-bottom-style:ridge;
     border-color: $colorBorderHeader;
+
 }
 
 .encabezado_logo{
@@ -11,26 +13,51 @@ header{
     
 }
 
+// .encabezado{
+//     background-color:$colorHeader;
+//     list-style-type: none; 
+   
+
+//     .menu-encabezado {
+//         color: $colorTexto;
+//         font-size: 1.2rem;
+//         padding: 2rem;
+//         background-color:$colorHeader;     
+//     }
+// }
+
 .encabezado{
-    background-color:$colorHeader;
-    list-style-type: none;    
-
-    .menu-encabezado {
-        color: $colorTexto;
-        font-size: 1.2rem;
-        padding: 2rem;
-        background-color:$colorHeader;     
-    }
+    background-image: url(#{$assetPath}/punto8.jpg);
+    background-color: $colorBorderHeader;
+    min-height: 24rem;
+    width: 100%;
 }
-
-
 .menu-hamburguesa{
     background-color: $colorHeader;
-    min-height: 4rem;
+    min-height: 8rem;
+    border-radius: 4rem;
+    margin: 3rem;
+
+    .logo{
+        background-color: $colorHeader;
+        padding-left: 2rem;
+    }
+
+    .logo-offcavas{
+        background-color: $colorFondo;
+    }
 
     .item-menu-hamburguesa{
         background-color: $colorHeader;
         padding-right: 3rem;
+        font-size: 1.2rem;
+        
+        a:hover {
+            text-decoration: underline;
+            text-underline-position: below;
+            text-underline-offset: 0.5rem;
+          }
+          
     }
 
     .icono-menu-hamburguesa{

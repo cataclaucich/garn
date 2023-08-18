@@ -17,7 +17,15 @@ footer{
         .menu-pie-item{
             font-size: 1.1rem;
             color: $colorTexto;
+            padding-top: 2rem;
+
+            
         }
+        :hover {
+            text-decoration: underline;
+            text-underline-position: below;
+            text-underline-offset: 0.5rem;
+          }
     }
 }
 
@@ -32,7 +40,12 @@ footer{
         background-color:$colorPie;
         padding-bottom: 2rem;
         padding-left: 1rem; 
-        padding-right: 1rem;   
-    }    
+        padding-right: 1rem; 
+        
+        .imagen-pie-icono{
+            background-color: $colorPie;
+            padding-top: 2rem;
+        }
+    }       
 }
 

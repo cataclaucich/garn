@@ -16,18 +16,12 @@
         background-color: $colorFondoTarjetas;
         padding: 1rem;
         margin: 0.5rem;
+        border-radius: 2rem;
     }
 }
 
 .tarjeta-patron{
-    padding-top: 2rem;
-
-    // .tarjeta-patron-item{
-    //     background-color: $colorBorderHeader;
-    // }
-    // .tarjeta-patron-texto{
-    //     background-color: $colorBorderHeader;
-    // }
+    padding-top:6rem;
 }
 
 .boton-seccion{
@@ -48,4 +42,16 @@
     .agujas-texto{
         background-color: map-get($map: $colorFondoTarjetas, $key: Agujas);
     }
+}
+
+.tarjeta-seccion-tip{
+
+    background-color: $colorBorderHeader;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.hola{
+    background-color: $colorBorderHeader;
+    :hover{background-color: $colorBorderHeader;}
 }
