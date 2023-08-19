@@ -46,41 +46,47 @@
     </header> 
 
     <main>  
-        <section>
-            <div class="accordion accordion-flush hola" id="accordionFlushExample">
-                <div class="accordion-item hola">
-                  <h2 class="accordion-header hola">
-                    <button class="accordion-button collapsed hola" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        ¿Cómo surgimos?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Garntraum nació en el año 2020, en plena cuarentena. Surgió de a poco, como un escape del aburrimiento. Punto a punto, este espacio fue un escape para relajarnos y encontrarnos con diferentes personas que también habían encontrado entretenimiento en tejer. Creemos que generar este ámbito para compartir puede ayudar a muchas personas a descubrir nuevas habilidades y fomentar su creatividad.</div>
+       
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active carousel-transicion">
+                    <img src="../img/bienvenida2.jpg" class="d-block w-100" alt="paisaje">
+                    <div class="carousel-caption d-none d-md-block carousel-texto">
+                      <h2 class="carousel-texto">¿Cómo surgimos?</h2>
+                      <p class="carousel-texto carousel">Garntraum nació en el año 2020, en plena cuarentena. Surgió de a poco, como un escape del aburrimiento. Punto a punto, este espacio fue un escape para relajarnos y encontrarnos con diferentes personas que también habían encontrado entretenimiento en tejer. Creemos que generar este ámbito para compartir puede ayudar a muchas personas a descubrir nuevas habilidades y fomentar su creatividad.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-transicion">
+                    <img src="../img/nombre.jpg" class="d-block w-100" alt="crochet">
+                    <div class="carousel-caption d-none d-md-block carousel-texto">
+                        <h2 class="carousel-texto">¿Por qué este nombre?</h2>
+                        <p class="carousel-texto carousel">Garntraum. Este es el nombre que elegimos para este espacio. Es la unión de dos palabras alemanas: Garn y Traum. Garn significa hilo. Y Traum, sueño. Esto es lo que queremos que este espacio sea para todos: un sueño de hilados.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item carousel-transicion">
+                    <img src="../img/canastos.jpg" class="d-block w-100" alt="canastos">
+                    <div class="carousel-caption d-none d-md-block carousel-texto">
+                        <h2 class="carousel-texto">¿Qué hacemos en Garntraum?</h2>
+                        <p class="carousel-texto carousel">En Garntraum queremos ayudarte a que te inspires y tejas obras de arte. Acá podés encontrar todo lo que encesitás para relajarte, desconectarte de la rutina y conectarte con tus manos para que surja una nueva creación. Nuestro objetivo es que puedas aprender técnicas innovadoras y te superes tejido a tejido.</p>
+                    </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        ¿Por qué este nombre?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Garntraum. Este es el nombre que elegimos para este espacio. Es la unión de dos palabras alemanas: Garn y Traum. Garn significa hilo. Y Traum, sueño. Esto es lo que queremos que este espacio sea para todos: un sueño de hilados.</div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        ¿Qué hacemos en Garntraum?
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">En Garntraum queremos ayudarte a que te inspires y tejas obras de arte. Acá podés encontrar todo lo que encesitás para relajarte, desconectarte de la rutina y conectarte con tus manos para que surja una nueva creación. Nuestro objetivo es que puedas aprender técnicas innovadoras y te superes tejido a tejido.</div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="container text-center seccion-central seccion-patrones">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            <div class="container text-center seccion-central seccion-patrones">
                 <div class="row justify-content-md-center">
                     <div class="col-md-3 tarjeta-Crochet">
                         <div class="card">
@@ -108,7 +114,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+
     </main>
 
     <footer>

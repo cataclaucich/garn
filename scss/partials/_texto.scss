@@ -24,8 +24,30 @@ p{
     font-size: 3rem;
     padding-top: 5rem;
     font-family: $fuenteTituloPrincipal, monospace; 
+    background-color: $colorPie;
 }
 .texto-bienvenida{
     font-size: 1.8rem;
     padding-top: 2rem;
+    background-color: $colorPie;
+    padding-bottom: 2rem;
+
+}
+
+.titulo-crochet{
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: $colorPie;
+    border-radius: 2rem;
+}
+
+.carousel-texto{
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    background-color: $colorBorderHeader;
+    color: $colorTexto;
+    .carousel{
+        color: $colorTexto;
+        font-size: 1.1rem;
+    }
 }

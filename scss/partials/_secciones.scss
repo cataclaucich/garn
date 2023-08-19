@@ -1,5 +1,8 @@
 @import "./variables";
 
+.seccion-principal{
+    background-color: $colorPie;
+}
 
 .seccion-central{
     padding-top: 5rem;
@@ -51,7 +54,6 @@
     border-radius: 2rem;
 }
 
-.hola{
-    background-color: $colorBorderHeader;
-    :hover{background-color: $colorBorderHeader;}
+.carousel-transicion{
+    transition-duration: 3s;
 }
